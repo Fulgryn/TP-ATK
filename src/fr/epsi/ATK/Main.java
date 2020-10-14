@@ -10,7 +10,7 @@ public class Main{
         System.out.println("démarrage...");
 
         //System.out.println(new File(".").getAbsoluteFile());
-        Scanner scanner = new Scanner(new File("E:/IdeaProjects/lab0/client.txt"));
+        Scanner scanner = new Scanner(new File("E:/IdeaProjects/ATK/src/fr/epsi/ATK/client.txt"));
 
         while(scanner.hasNext()){
             String[] tokens = scanner.nextLine().split(";");
